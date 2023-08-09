@@ -1,0 +1,681 @@
+/*ヘッダー*/
+.header-logo::before {
+    content: "";
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    background-image: url(../img/estra_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(138, 132, 132);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+
+.header-nav-list {
+    display: flex;
+    font-size: 16px;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+/*メイン*/
+main {
+    position: relative;
+}
+
+.main-img {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.eyecatch {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-size: 65px;
+    line-height: 1.7;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+}
+
+.eyecatch2 {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.eyecatch-content {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10%;
+    color: rgb(170, 39, 102);
+}
+
+.eyecatch-info {
+    margin-top: 5px;
+    padding: 10px 10px 10px 0;
+    line-height: 1.7;
+    color: rgb(138, 132, 132);
+}
+
+.span-text {
+    color: rgb(48, 151, 171);
+    margin-right: 5px;
+}
+
+/* ニュース */
+.news {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.news-ttl {
+    font-size: 24px;
+    color: rgb(138, 132, 132);
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+}
+
+.news-text {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+    font-size: 20px;
+}
+
+.news-item {
+    list-style: none;
+    width: 100%;
+    white-space: nowrap;
+    color: rgb(138, 132, 132);
+    margin: 30px 0;
+    border-bottom: 1px solid rgb(196, 193, 193);
+    padding: 10px 0px;
+}
+
+.news-btn {
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 4px 0;
+    background: rgb(170, 39, 102);
+    color: #fff;
+    width: 100px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.news-list {
+    width: 700px;
+    border-bottom: 2px solid rgb(196, 193, 193);
+    border-top: 2px solid rgb(196, 193, 193);
+}
+
+/* アバウト */
+.about {
+    width: 100%;
+    height: 500px;
+    background: rgb(238, 242, 244);
+    /* position: relative; */
+}
+
+.about-ttl {
+    font-size: 24px;
+    color: rgb(138, 132, 132);
+    text-align: center;
+    /* margin-top: 30px; */
+    /* padding: 30px; */
+    line-height: 1.5;
+    position: relative;
+    top: 80px;
+}
+
+.about-text {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 120px;
+    /* margin: 0 0 100px 0; */
+}
+
+.about-img {
+    width: 25%;
+    margin-right: 100px;
+    /* position: relative;  */
+    /* top: 60px; */
+    /* left: 800px; */
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-description {
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.about-description-item {
+    color: rgb(138, 132, 132);
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    /* position: absolute; */
+    /* top: 185px; */
+    /* left: 300px; */
+    line-height: 1.5;
+    display: block;
+}
+
+.about-description-item2 {
+    color: rgb(138, 132, 132);
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    /* position: absolute; */
+    /* top: 340px; */
+    /* left: 300px; */
+    line-height: 1.5;
+    display: block;
+}
+
+/* サービス */
+.service {
+    width: 100%;
+    height: 700px;
+}
+
+.service-container {
+    position: relative;
+    top: 10%;
+}
+
+.service-ttl {
+    font-size: 24px;
+    color: rgb(138, 132, 132);
+    max-width: 100%;
+    /* height: 100px; */
+    /*margin-left: 14%;*/
+    line-height: 1.5;
+    /* transform: translate(140%, -30%) */
+}
+
+.Service-text {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+    font-size: 20px;
+}
+
+.service-ttl-wrapper {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 200px;
+}
+
+.service-wrapper {
+    width: 70%;
+    height: 400px;
+    /* box-sizing: border-box; */
+    background-color: rgb(189, 229, 237);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px 200px 0;
+}
+
+.service-box1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: rgb(184, 16, 103);
+    position: relative;
+    text-align: center;
+}
+
+.service-box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: rgba(217, 104, 155, 0.945);
+    position: relative;
+}
+
+.service-box3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: rgba(188, 156, 184, 0.977);
+    position: relative;
+}
+
+.service-content-item1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 120%;
+    right: 36%;
+    width: 30%;
+    height: 150px;
+    background-image: url(../img/service__first.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: auto;
+}
+
+.service-content-item2::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -55%;
+    bottom: -10%;
+    width: 45%;
+    height: 150px;
+    background-image: url(../img/service__first.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: auto;
+}
+
+.service-content-item3::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -55%;
+    bottom: -10%;
+    width: 45%;
+    height: 150px;
+    background-image: url(../img/service__first.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: auto;
+}
+
+.service-content-item1,
+.service-content-item2,
+.service-content-item3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.service-description1 {
+    color: #fff;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.7;
+    padding: 20px 20px;
+}
+
+.service-description3,
+.service-description2 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+
+/*.service-description3 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 15px;*/
+
+.service-content1 {
+    transform: translateY(200px);
+}
+
+.service-content2,
+.service-content3 {
+    width: 60%;
+    position: relative;
+    left: 38%;
+    top: 20%;
+}
+
+/* ブログ */
+.blog {
+    width: 100%;
+    height: 630px;
+    background: rgb(238, 242, 244);
+}
+
+.blog-ttl {
+    font-size: 24px;
+    color: rgb(138, 132, 132);
+    /* margin-bottom: 20px; */
+    line-height: 1.5;
+    max-width: 100%;
+    /* display: inline-block; */
+    /* transform: translate(270%, 30%) */
+}
+
+.blog-text {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+    font-size: 20px;
+    /* display: inline-block; */
+}
+
+.blog-ttl-wrapper {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 200px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.blog-card {
+    width: 23%;
+    height: 70%;
+    margin-top: 30px;
+    margin-left: 50px;
+    background: #fff;
+    border-radius: 20px 20px;
+    display: inline-block;
+}
+
+.blog-card-img .blog-container {
+    display: inline-block;
+}
+
+.blog-card-text {
+    padding: 15px 25px;
+    background: rgb(188, 18, 114);
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0 0 0;
+}
+
+.blog-content {
+    padding: 15px 25px;
+}
+
+.blog-img {
+    position: relative;
+}
+
+.blog-img img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.blog-content-tag {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 15%;
+}
+
+.blog-content-ttl {
+    color: rgb(138, 132, 132);
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.blog-content-item1 {
+    display: inline-block;
+    color: rgb(138, 132, 132);
+}
+
+.blog-content-item2 {
+    display: inline-block;
+    margin-left: 20%;
+    color: rgb(138, 132, 132);
+}
+
+.more-btn {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.more-btn {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.more-btn-item {
+    width: 200px;
+    padding: 25px 0;
+    border-radius: 40px;
+    background: #fff;
+    display: block;
+    color: rgb(188, 18, 114);
+    border: solid 2px rgb(188, 18, 114);
+}
+
+/* カンパニー */
+
+.company-ttl-container {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+
+.company-ttl {
+    font-size: 24px;
+    color: rgb(138, 132, 132);
+    line-height: 1.5;
+    max-width: 100%;
+}
+
+.company-text {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(170, 39, 102);
+    font-size: 20px;
+}
+
+.company {
+    width: 100%;
+    height: 600px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    color: rgb(138, 132, 132);
+    position: relative;
+    top: 130px;
+    margin: 0 auto;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+table th {
+    font-weight: bold;
+    text-align: left;
+    background-color: rgb(238, 242, 244);
+    width: 30%;
+}
+
+/* 採用情報 */
+
+.info {
+    display: flex;
+}
+
+.recruit {
+    position: relative;
+    width: 50vw;
+    background: url(../img/recruit.png) no-repeat center/cover;
+}
+
+.interview {
+    position: relative;
+    width: 50vw;
+    background: url(../img/interview.png) no-repeat center/cover;
+}
+
+.recruit-link {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: inline-block;
+    transform: translate(-50px -50px);
+}
+
+.interview-link {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    display: inline-block;
+    transform: translate(-50px -50px);
+}
+
+.recruit-text {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.interview-text {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.recruit-img img {
+    width: 100%;
+}
+
+.interview-img img {
+    width: 100%;
+}
+
+/* お問い合わせ */
+
+.contact-content {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-description {
+    color: rgb(138, 132, 132);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.contact-box {
+    display: flex;
+    margin-top: 30px;
+}
+
+.box1 {
+    flex-grow: 1;
+    position: relative;
+    height: 50px;
+    line-height: 2em;
+    margin-right: 2em;
+    background-color: #fff;
+}
+
+.box1::after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin: 0 1rem;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: rgb(194, 27, 110);
+}
+
+.box2 {
+    flex-grow: 1;
+    height: 50px;
+    line-height: 140px;
+    background-color: #fff;
+}
+
+.contact-btn {
+    position: relative;
+    /* top: 50px; */
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(240, 33, 137), rgb(170, 14, 92));
+    display: inline-block;
+    width: 200px;
+    padding: 35px 50px;
+    border-radius: 80px;
+    box-shadow: 0 9px rgb(124, 10, 67);
+    margin-top: 30px;
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+}
+
+/* フッター */
+.footer {
+    width: 100%;
+    height: 80px;
+    background: rgb(238, 242, 244);
+}
+
+.footer-item {
+    color: rgb(138, 132, 132);
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
