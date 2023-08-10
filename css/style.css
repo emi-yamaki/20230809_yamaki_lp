@@ -79,18 +79,28 @@ main {
 }
 
 /* ニュース */
+/* .news { */
+    /* width: 50%; */
+    /* margin: 100px auto; */
+    /* text-align: left; */
+/* } */
 .news {
-    width: 50%;
-    margin: 100px auto;
+    width: 100%;
+    margin: 0 auto;
     text-align: left;
+    height: 700px;
 }
-
+.news-ttl-container {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: 290px;
+}
 .news-ttl {
     font-size: 24px;
     color: rgb(138, 132, 132);
     margin-bottom: 30px;
     line-height: 1.5;
-
 }
 
 .news-text {
@@ -122,7 +132,10 @@ main {
 }
 
 .news-list {
-    width: 700px;
+    width: 60%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
     border-bottom: 2px solid rgb(196, 193, 193);
     border-top: 2px solid rgb(196, 193, 193);
 }
@@ -139,8 +152,6 @@ main {
     font-size: 24px;
     color: rgb(138, 132, 132);
     text-align: center;
-    /* margin-top: 30px; */
-    /* padding: 30px; */
     line-height: 1.5;
     position: relative;
     top: 80px;
@@ -161,15 +172,11 @@ main {
     justify-content: space-around;
     position: relative;
     top: 120px;
-    /* margin: 0 0 100px 0; */
 }
 
 .about-img {
     width: 25%;
     margin-right: 100px;
-    /* position: relative;  */
-    /* top: 60px; */
-    /* left: 800px; */
 }
 
 .about-img img {
@@ -191,9 +198,6 @@ main {
     width: 100%;
     font-size: 18px;
     text-align: justify;
-    /* position: absolute; */
-    /* top: 185px; */
-    /* left: 300px; */
     line-height: 1.5;
     display: block;
 }
@@ -203,9 +207,6 @@ main {
     width: 100%;
     font-size: 18px;
     text-align: justify;
-    /* position: absolute; */
-    /* top: 340px; */
-    /* left: 300px; */
     line-height: 1.5;
     display: block;
 }
@@ -217,18 +218,17 @@ main {
 }
 
 .service-container {
+    width: 100%;
     position: relative;
     top: 10%;
+    margin: 0 auto;
 }
 
 .service-ttl {
     font-size: 24px;
     color: rgb(138, 132, 132);
     max-width: 100%;
-    /* height: 100px; */
-    /*margin-left: 14%;*/
     line-height: 1.5;
-    /* transform: translate(140%, -30%) */
 }
 
 .Service-text {
@@ -241,18 +241,19 @@ main {
     position: relative;
     display: inline-block;
     top: 40px;
-    left: 200px;
+    left: 220px;
 }
 
 .service-wrapper {
     width: 70%;
     height: 400px;
-    /* box-sizing: border-box; */
+    position: relative;
+    top: 80px;
     background-color: rgb(189, 229, 237);
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 1fr 1fr;
-    margin: 80px 200px 0;
+    margin: 0 auto;
 }
 
 .service-box1 {
@@ -341,13 +342,6 @@ main {
     line-height: 1.5;
     padding-top: 15px;
 }
-
-/*.service-description3 {
-    color: #fff;
-    font-size: 17px;
-    line-height: 1.5;
-    padding-top: 15px;*/
-
 .service-content1 {
     transform: translateY(200px);
 }
@@ -370,18 +364,14 @@ main {
 .blog-ttl {
     font-size: 24px;
     color: rgb(138, 132, 132);
-    /* margin-bottom: 20px; */
     line-height: 1.5;
     max-width: 100%;
-    /* display: inline-block; */
-    /* transform: translate(270%, 30%) */
 }
 
 .blog-text {
     font-family: 'Indie Flower', cursive;
     color: rgb(170, 39, 102);
     font-size: 20px;
-    /* display: inline-block; */
 }
 
 .blog-ttl-wrapper {
@@ -491,7 +481,7 @@ main {
     display: inline-block;
     position: relative;
     top: 80px;
-    left: 300px;
+    left: 290px;
 }
 
 .company-ttl {
@@ -565,7 +555,7 @@ table th {
 .interview-link {
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 30%;
     display: inline-block;
     transform: translate(-50px -50px);
 }
@@ -640,7 +630,6 @@ table th {
 
 .contact-btn {
     position: relative;
-    /* top: 50px; */
     text-align: center;
     font-size: 18px;
     color: #fff;
