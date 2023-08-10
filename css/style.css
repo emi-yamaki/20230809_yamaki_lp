@@ -79,11 +79,7 @@ main {
 }
 
 /* ニュース */
-/* .news { */
-    /* width: 50%; */
-    /* margin: 100px auto; */
-    /* text-align: left; */
-/* } */
+
 .news {
     width: 100%;
     margin: 0 auto;
@@ -93,8 +89,8 @@ main {
 .news-ttl-container {
     display: inline-block;
     position: relative;
-    top: 80px;
-    left: 290px;
+    top: 12%;
+    left: 20%;
 }
 .news-ttl {
     font-size: 24px;
@@ -145,7 +141,6 @@ main {
     width: 100%;
     height: 500px;
     background: rgb(238, 242, 244);
-    /* position: relative; */
 }
 
 .about-ttl {
@@ -237,18 +232,18 @@ main {
     font-size: 20px;
 }
 
-.service-ttl-wrapper {
+.service-ttl-container {
     position: relative;
     display: inline-block;
-    top: 40px;
-    left: 220px;
+    top: 20%;
+    left: 15%;
 }
 
 .service-wrapper {
     width: 70%;
     height: 400px;
     position: relative;
-    top: 80px;
+    top: 60px;
     background-color: rgb(189, 229, 237);
     display: grid;
     grid-template-rows: 50% 50%;
@@ -357,7 +352,7 @@ main {
 /* ブログ */
 .blog {
     width: 100%;
-    height: 630px;
+    height: 700px;
     background: rgb(238, 242, 244);
 }
 
@@ -374,18 +369,18 @@ main {
     font-size: 20px;
 }
 
-.blog-ttl-wrapper {
+.blog-ttl-container {
     position: relative;
     display: inline-block;
-    top: 50px;
-    left: 200px;
+    top: 8%;
+    left: 14%;
 }
 
 .blog-container {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 .blog-card {
@@ -416,7 +411,7 @@ main {
 }
 
 .blog-content {
-    padding: 15px 25px;
+    padding: 10% 10%;
 }
 
 .blog-img {
@@ -430,8 +425,10 @@ main {
 
 .blog-content-tag {
     font-size: 16px;
-    text-align: left;
     margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 }
 
 .blog-content-ttl {
@@ -441,13 +438,10 @@ main {
 }
 
 .blog-content-item1 {
-    display: inline-block;
     color: rgb(138, 132, 132);
 }
 
 .blog-content-item2 {
-    display: inline-block;
-    margin-left: 20%;
     color: rgb(138, 132, 132);
 }
 
@@ -462,7 +456,7 @@ main {
     width: 100%;
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 100px;
 }
 
 .more-btn-item {
@@ -480,8 +474,8 @@ main {
 .company-ttl-container {
     display: inline-block;
     position: relative;
-    top: 80px;
-    left: 290px;
+    top: 10%;
+    left: 20%;
 }
 
 .company-ttl {
@@ -509,7 +503,7 @@ table {
     border-collapse: collapse;
     color: rgb(138, 132, 132);
     position: relative;
-    top: 130px;
+    top: 110px;
     margin: 0 auto;
 }
 
